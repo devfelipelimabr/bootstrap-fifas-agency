@@ -1,6 +1,12 @@
-function search(){
-    const find = document.getElementById('searchInput');
+function onSearch(){
+    const onFind = document.getElementById('searchInput');
 
 
-    find.innerHTML = `<input type="text" id="myInput" placeholder="Digite o nome e pressione enter..." style="display: block;">`;
+    onFind.innerHTML = `<input type="text" id="myInput" placeholder=" Digite e pressione enter..." style="display: block;">`;
+}
+function offSearch(){
+    const offFind = document.getElementById('searchInput');
+
+
+    offFind.innerHTML = `<input type="text" id="myInput" style="display: none;">`;
 }

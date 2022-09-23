@@ -70,6 +70,28 @@ a {
     position: absolute;
     right: 5%;
     top: 25%;
+    transition: ease-in-out;
+    animation-name: reveal;
+    animation-duration: 1.5s;
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.nav-icon {
+    transition: transform .3s;
+}
+
+.nav-icon:hover {
+    transform: scale(1.2);
+    box-shadow: 15px #ebedf2;
 }
 
 .nav-icon>a {
