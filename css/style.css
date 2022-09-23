@@ -20,41 +20,9 @@ a {
 
 
 /*-BARRA DE NAVEGAÇÃO-*/
-
-.logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    background: linear-gradient(#5852F2, #6F6BF2);
-    padding: 10px 0;
-
-}
-
-.logo>a {
-    position: relative;
-    text-align: center;
-}
-
-.logo>a>img {
-    width: 70%;
-    margin: auto;
-}
-
-.logo>.agency {
-    color: #EBEDF2;
-    font-family: 'Lobster two', cursive;
-}
-
-#fl {
-    font-weight: bold;
-}
-
 .navbar {
     background-color: #6F6BF2;
     box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.2);
-    z-index: 1;
     border-top: solid 1px #6F6BF2;
     transition: 1.5s;
 }
@@ -130,6 +98,38 @@ a {
     to {
         opacity: 1;
     }
+}
+
+.logo {
+    position: absolute;
+    right: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px 0;
+}
+
+.logo>a {
+    position: relative;
+    text-align: center;
+}
+
+.logo>a>img {
+    width: 70%;
+    margin: auto;
+    box-shadow: 5px 5px 5px hsla(242, 74%, 80%, 0.4);
+}
+
+.logo>.agency {
+    color: #EBEDF2;
+    font-family: 'Lobster two', cursive;
+    text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.3);
+}
+
+#fl {
+    font-weight: bold;
 }
 
 
