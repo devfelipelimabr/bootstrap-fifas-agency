@@ -172,7 +172,7 @@ p {
 .carousel-caption {
     padding: 5px 10px;
     border-radius: 1.5rem;
-    background-color: rgba(87, 82, 242, 0.5);
+    background-color: rgba(87, 82, 242, 0.75);
     width: fit-content;
     position: absolute;
     margin: auto;
