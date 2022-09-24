@@ -51,10 +51,10 @@ function offP() {
     const img5 = document.getElementById('p5');
     const img6 = document.getElementById('p6');
 
-    img1.innerHTML = `<img src="img/p1.jpg" alt="imagem do projeto"><h3 style = style="display: none;"></h3>`;
-    img2.innerHTML = `<img src="img/p2.jpg" alt="imagem do projeto"><h3 style = style="display: none;"></h3>`;
-    img3.innerHTML = `<img src="img/p3.jpg" alt="imagem do projeto"><h3 style = style="display: none;"></h3>`;
-    img4.innerHTML = `<img src="img/p4.jpg" alt="imagem do projeto"><h3 style = style="display: none;"></h3>`;
-    img5.innerHTML = `<img src="img/p5.jpg" alt="imagem do projeto"><h3 style = style="display: none;"></h3>`;
-    img6.innerHTML = `<img src="img/p6.jpg" alt="imagem do projeto"><h3 style = style="display: none;"></h3>`;
+    img1.innerHTML = `<img src="img/p1.jpg" alt="imagem do projeto"><h3 style="display: none;"></h3>`;
+    img2.innerHTML = `<img src="img/p2.jpg" alt="imagem do projeto"><h3 style="display: none;"></h3>`;
+    img3.innerHTML = `<img src="img/p3.jpg" alt="imagem do projeto"><h3 style="display: none;"></h3>`;
+    img4.innerHTML = `<img src="img/p4.jpg" alt="imagem do projeto"><h3 style="display: none;"></h3>`;
+    img5.innerHTML = `<img src="img/p5.jpg" alt="imagem do projeto"><h3 style="display: none;"></h3>`;
+    img6.innerHTML = `<img src="img/p6.jpg" alt="imagem do projeto"><h3 style="display: none;"></h3>`;
 }
