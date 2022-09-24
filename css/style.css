@@ -222,5 +222,5 @@ section {
 
 #project-pics>li {
     margin: 1.5% auto;
-   
+    cursor: pointer;
 }
