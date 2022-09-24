@@ -109,6 +109,9 @@ a {
     align-items: center;
     align-content: center;
     padding: 10px 0;
+    transition: ease-in-out;
+    animation-name: reveal;
+    animation-duration: 1.5s;
 }
 
 .logo>a {
