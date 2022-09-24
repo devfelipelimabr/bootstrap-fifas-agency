@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
 /*FONTE---rules to specify families -> font-family: 'Lobster Two', cursive;*/
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/*FONTE---rules to specify families -> font-family: 'Open Sans', sans-serif;*/
 
 /*-GLOBAIS-*/
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #EBEDF2;
+    background-color: white;
 }
 
 ul>li {
@@ -17,7 +17,23 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
 
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #0D0D0D;
+}
 
 /*-BARRA DE NAVEGAÇÃO-*/
 .navbar {
@@ -158,4 +174,15 @@ a {
     color: #EBEDF2;
     font-size: 1rem;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+/*-SECTIONS-*/
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info {
+    width: 80vw;
+    margin-top: 50px;
 }
