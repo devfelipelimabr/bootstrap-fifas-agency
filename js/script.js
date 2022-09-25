@@ -1,4 +1,4 @@
-/*-FUNÇÃO PARA REVELAR O CAMPO PESQUISA-*/
+/*-REVELAR O CAMPO PESQUISA-*/
 function onSearch() {
     const onFind = document.getElementById('searchInput');
 
@@ -10,7 +10,7 @@ function offSearch() {
     offFind.innerHTML = `<input type="text" id="myInput" style="display: none;">`;
 }
 
-/*-FUNÇÃO PARA REVELAR INFO DOS PROJETOS-*/
+/*-REVELAR INFO DOS PROJETOS-*/
 function onP1() {
     const pic1 = document.getElementById('p1');
 
@@ -92,7 +92,7 @@ function onP16() {
     pic16.innerHTML = `<img src="img/p16.jpg" alt="imagem do projeto"><h3 class="projectInfo">Residencial Fazanni</h3>`
 }
 
-/*-FUNÇÃO PARA ESCONDER INFO DOS PROJETOS-*/
+/*-ESCONDER INFO DOS PROJETOS-*/
 function offP() {
     const img1 = document.getElementById('p1');
     const img2 = document.getElementById('p2');
@@ -111,7 +111,6 @@ function offP() {
     const img15 = document.getElementById('p15');
     const img16 = document.getElementById('p16');
     
-
     img1.innerHTML = `<img src="img/p1.jpg" alt="imagem do projeto"><h3 class="projectInfo" style="display: none;"></h3>`;
     img2.innerHTML = `<img src="img/p2.jpg" alt="imagem do projeto"><h3 class="projectInfo" style="display: none;"></h3>`;
     img3.innerHTML = `<img src="img/p3.jpg" alt="imagem do projeto"><h3 class="projectInfo" style="display: none;"></h3>`;

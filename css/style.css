@@ -265,8 +265,16 @@ article {
     flex-direction: column;
     align-items: flex-start;
     width: 430px;
-    margin: 20px 10px;
-    
+    margin: 30px 15px;
+
+}
+
+/*-RESPONSIVIDADE DO CAMPO NOTICIAS*/
+@media (max-width: 1380px) {
+    .news>li {
+        margin: 30px auto;
+        padding: 0 15px;
+    }
 }
 
 .news>li>a>img {
@@ -289,6 +297,9 @@ article {
     text-align: left;
     color: #444444;
     height: 100px;
-    overflow: hidden;
+    display: -webkit-box;
     text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
