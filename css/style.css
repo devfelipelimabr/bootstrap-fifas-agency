@@ -269,14 +269,6 @@ article {
 
 }
 
-/*-RESPONSIVIDADE DO CAMPO NOTICIAS*/
-@media (max-width: 1380px) {
-    .news>li {
-        margin: 30px auto;
-        padding: 0 15px;
-    }
-}
-
 .news>li>a>img {
     width: 100%;
 }
@@ -301,4 +293,29 @@ article {
     overflow: hidden;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
+}
+
+/*-RESPONSIVIDADE VIDEO-*/
+@media (max-width: 1250px) {
+    .video > iframe {
+        height: 563px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 751px) {
+    .video > iframe {
+        height: 338px;
+        width: 100%;
+    }
+}
+
+
+
+/*-RESPONSIVIDADE NOTICIAS-*/
+@media (max-width: 1380px) {
+    .news>li {
+        margin: 30px auto;
+        padding: 0 15px;
+    }
 }
