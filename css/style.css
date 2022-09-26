@@ -13,6 +13,10 @@ a {
     text-decoration: none;
 }
 
+.btn {
+    text-transform: uppercase;
+}
+
 h1 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
@@ -275,12 +279,15 @@ article {
     margin-bottom: 6px;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
     color: silver;
+
 }
 
 .newsTitle {
     color: #0D0D0D;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .introText {
@@ -334,4 +341,27 @@ article {
     width: 100%;
     height: 2.5rem;
     z-index: -1;
+}
+
+/*-CARREIRAS-*/
+.carrers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #0D0D0D;
+    padding: 28px 80px;
+    margin: 3%;
+}
+
+.job-title {
+    color: #0D0D0D;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.carrers > .btn {
+    background-color: #0D0D0D;
+    border-color: #0D0D0D;
+    margin-top: 1rem;
 }
