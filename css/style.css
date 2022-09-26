@@ -197,7 +197,7 @@ section {
     margin: auto;
     padding: 0;
     cursor: pointer;
-    border: .75rem solid #0D0D0D;
+    border: .75rem solid;
 }
 
 .projectInfo {
@@ -217,7 +217,7 @@ section {
 }
 
 .clickHere {
-    color: black;
+    color: #0D0D0D;
     margin: 1% auto;
     padding: 0;
 }
