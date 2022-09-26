@@ -270,6 +270,8 @@ article {
 
 .subtitle {
     margin-top: 10px;
+    margin-bottom: 6px;
+    padding: 0;
     font-family: 'Courier New', Courier, monospace;
     color: silver;
 }
