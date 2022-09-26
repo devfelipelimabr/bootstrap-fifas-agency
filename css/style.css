@@ -180,26 +180,26 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    width: 80vw;
 }
 
 #project-pics {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
+    justify-content: center;
     padding: 0;
     margin: 0;
 
 }
 
 #project-pics>li {
-    margin: 1rem auto;
-    padding: 1rem;
+    margin: auto;
+    padding: 0;
     cursor: pointer;
-    background-image: linear-gradient(135deg, #0D0D0D, #EBEDF2);
-    pad
+    border: .75rem solid;
+    border-color: linear-gradient(black, white);
+    
 }
 
 .projectInfo {
