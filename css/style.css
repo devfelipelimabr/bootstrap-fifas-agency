@@ -95,7 +95,7 @@ ul>li {
     color: #EBEDF2;
 }
 
-#search-icon {
+#searchIcon {
     margin-right: 20px;
 }
 
@@ -216,7 +216,7 @@ section {
     width: 80vw;
 }
 
-#project-pics {
+#projectPics {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -226,7 +226,7 @@ section {
 
 }
 
-#project-pics>li {
+#projectPics>li {
     margin: auto;
     padding: 0;
     cursor: pointer;
@@ -364,7 +364,7 @@ article {
     margin: 3%;
 }
 
-.job-title {
+.jobTitle {
     color: #0D0D0D;
     font-weight: bold;
     text-transform: uppercase;
@@ -378,7 +378,7 @@ article {
 }
 
 /*-FOOTER*/
-.footer-dad {
+.footerDad {
     box-shadow: 0 -.3rem .7rem rgba(0, 0, 0, 0.1);
     width: 100%;
 }
