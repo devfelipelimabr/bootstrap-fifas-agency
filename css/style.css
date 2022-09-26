@@ -315,3 +315,9 @@ article {
         padding: 0 15px;
     }
 }
+
+/*-FOOTER*/
+.footer-dad {
+    background-color: #EBEDF2;
+    border-top: 1rem solid #AAA7F2;
+}
