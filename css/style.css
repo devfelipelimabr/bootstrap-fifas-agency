@@ -135,6 +135,31 @@ ul>li {
     animation-duration: 1.5s;
 }
 
+/*-RESPONSIVIDADE DA LOGO-*/
+@media (max-width: 1500px) {
+    .logo {
+        right: 40vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .logo {
+        right: 35vw;
+    }
+}
+@media (max-width: 1070px) {
+    .logo {
+        right: 25vw;
+    }
+}
+
+@media (max-width: 991px) {
+    .logo {
+        right: 35vw;
+        top: 10vh;
+    }
+}
+
 .logo>a {
     position: relative;
     text-align: center;
@@ -342,7 +367,7 @@ article {
     text-align: center;
 }
 
-.carrers > .btn {
+.carrers>.btn {
     background-color: #0D0D0D;
     border-color: #0D0D0D;
     margin-top: 1rem;
@@ -373,21 +398,21 @@ article {
     margin: 0 auto;
 }
 
-.col-2 > h5 {
+.col-2>h5 {
     text-align: center;
 }
 
-.address > p {
+.address>p {
     color: #c6c8cc;
     margin: auto;
     padding: 0;
 }
 
-.mail > a > p {
-   color: #c6c8cc;
-   transition: all .3s;
+.mail>a>p {
+    color: #c6c8cc;
+    transition: all .3s;
 }
 
-.mail > a > p:hover {
-    color: #97989b;    
- }
+.mail>a>p:hover {
+    color: #97989b;
+}
