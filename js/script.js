@@ -134,3 +134,14 @@
         img16.innerHTML = `<img src="img/p16.jpg" alt="imagem do projeto"><h3 class="projectInfo" style="display: none;"></h3>`;
     }
 }
+
+/*-INSERÇÃO DE ANO ATUAL NO FOOTER-*/
+{
+    function getYear() {
+        const ano = document.getElementById('year');
+        const data = new Date;
+        const anoAtual = data.getFullYear();
+
+        ano.innerHTML = ` ${anoAtual}`
+    }
+}
