@@ -197,9 +197,7 @@ section {
     margin: auto;
     padding: 0;
     cursor: pointer;
-    border: .75rem solid;
-    border-color: linear-gradient(black, white);
-    
+    border: .75rem solid #0D0D0D;
 }
 
 .projectInfo {
